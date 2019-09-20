@@ -13,8 +13,10 @@ int _tmain(int argc, TCHAR* argv[])
   PROCESS_INFORMATION pi = { 0, };
   si.cb = sizeof(si);
 
+  TCHAR command[] = _T("EnvChild.exe");
+
   CreateProcess(
-    NULL, (LPWSTR)_T("EnvChild.exe"), NULL, NULL, FALSE,
+    NULL, command, NULL, NULL, FALSE,
     CREATE_NEW_CONSOLE | CREATE_UNICODE_ENVIRONMENT,
     NULL,
     NULL, &si, &pi
