@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TerminationHandlerEx1", "Te
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TerminationHandlerEx2", "TerminationHandlerEx2\TerminationHandlerEx2.vcxproj", "{9F2159F7-DAD1-415F-9C86-39F1E45BC644}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SEH_FlowView", "SEH_FlowView\SEH_FlowView.vcxproj", "{49B05829-E1DC-40EA-82D3-13E291365F62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -491,6 +493,14 @@ Global
 		{9F2159F7-DAD1-415F-9C86-39F1E45BC644}.Release|x64.Build.0 = Release|x64
 		{9F2159F7-DAD1-415F-9C86-39F1E45BC644}.Release|x86.ActiveCfg = Release|Win32
 		{9F2159F7-DAD1-415F-9C86-39F1E45BC644}.Release|x86.Build.0 = Release|Win32
+		{49B05829-E1DC-40EA-82D3-13E291365F62}.Debug|x64.ActiveCfg = Debug|x64
+		{49B05829-E1DC-40EA-82D3-13E291365F62}.Debug|x64.Build.0 = Debug|x64
+		{49B05829-E1DC-40EA-82D3-13E291365F62}.Debug|x86.ActiveCfg = Debug|Win32
+		{49B05829-E1DC-40EA-82D3-13E291365F62}.Debug|x86.Build.0 = Debug|Win32
+		{49B05829-E1DC-40EA-82D3-13E291365F62}.Release|x64.ActiveCfg = Release|x64
+		{49B05829-E1DC-40EA-82D3-13E291365F62}.Release|x64.Build.0 = Release|x64
+		{49B05829-E1DC-40EA-82D3-13E291365F62}.Release|x86.ActiveCfg = Release|Win32
+		{49B05829-E1DC-40EA-82D3-13E291365F62}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
